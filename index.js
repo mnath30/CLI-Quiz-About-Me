@@ -9,7 +9,7 @@ var score=0;
 //high score
 var highScore={
   name:'Maitreyee',
-  score:3
+  score:6
 }
 
 //function to take check questions againse answers
@@ -42,8 +42,21 @@ var questionThree={
   answer:'beaches'
 }
 
+var questionFour={
+  question:'Her favourite TV Series?\n',
+  answer:'friends' 
+}
+var questionFive={
+  question:'Where do I live?\n',
+  answer:'mumbai'
+}
+var questionSix={
+  question:'Which is her favourite dish?\n',
+  answer:'biriyani'
+}
+
 //creating array of questions
-var questionArray=[questionOne,questionTwo,questionThree];
+var questionArray=[questionOne,questionTwo,questionThree,questionFour,questionFive,questionSix];
 
 //iterating through questionArray and calling the function
 for (var i=0;i<questionArray.length;i++){
