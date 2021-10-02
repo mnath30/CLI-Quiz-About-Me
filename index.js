@@ -16,14 +16,14 @@ var highScore={
 function check(question,answer){
  var answerEntered=readlinesync.question(question);
  if (answerEntered.toLowerCase()===answer){
-   console.log(`You are absolutely correct!
-   --------------------------------------------`);
+   console.log(`You are absolutely correct!`);
    score++;
  }
  else{
-   console.log(`Oops that is not correct
-   --------------------------------------------`);
+   console.log(`Oops that is not correct`);
  }
+ console.log(`Current Score: ${score}
+ --------------------------------------------`);
 }
 
 //creating objects of questions
